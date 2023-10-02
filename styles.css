@@ -1,0 +1,123 @@
+/* STYLES */
+
+body {
+ background-color: rgb(7, 0, 58);
+ background-image: linear-gradient(rgb(7, 0, 37), rgb(30, 27, 44) );
+ color: rgb(243 245 192);
+ font-family: 'Abril Fatface', cursive;
+ font-family: 'Montserrat', sans-serif;
+}
+
+main {
+ max-width: 650px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-bottom: 400px;
+ margin-top: 600px;
+}
+
+h1{
+font-family: 'Abril Fatface', cursive;
+font-size: 40px;
+letter-spacing: 3.1px;
+line-height: 120%;
+
+}
+div.verti{
+ writing-mode: vertical-rl;
+ font-size: 60px;
+ white-space: wrap;
+ text-indent: 70px;
+ animation-name: fade;
+ animation-duration: 2.5s;
+ }
+ @keyframes fade{
+    0%  {opacity: 0; transform: translateY(-800px);}
+    100% { opacity: 1; transform: translateY(0px);}
+ }
+ 
+
+span.big{
+font-size: 90px;
+}
+h2{
+font-family: 'Abril Fatface', cursive;
+font-size: 30px;
+letter-spacing: 0.9px;
+margin-bottom: 6em;
+margin-top: 6em;   
+}
+
+h3{
+font-family: 'Abril Fatface', cursive;
+font-size: 22px;   
+letter-spacing: 1px; 
+text-decoration:underline;
+margin-bottom: 1.5em; 
+}
+
+h4{
+font-family: 'Abril Fatface', cursive;
+ letter-spacing: 1px;
+ font-size: 19.5px;  
+ text-decoration:underline;  
+}
+
+a{
+  color:rgb(227, 242, 255);    
+}
+
+
+span.size{
+font-size: 25px;
+}
+span.weight{
+ font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+span.change{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+span.structure{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+ 
+}
+span.texture2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: light;
+    font-size: 17px;
+}
+span.texture{
+    font-size: 25px;
+}
+span.color{
+    color: rgb(255, 255, 154);
+}
+span.direction{
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg);
+    transform: rotate(7deg);
+    display: inline-block;
+    text-decoration:underline;
+}
+ul{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+    line-height: 200%;
+    font-size: 18px;
+    list-style: inside;
+}
+p{
+    text-indent: 3em;
+    font-size: 17px;
+    margin-right: 85px;
+    margin-bottom: 4em;
+}
+div.arth{
+    margin-top: -76px;
+    text-align: right;
+    margin-right: 40px;
+  
+}
